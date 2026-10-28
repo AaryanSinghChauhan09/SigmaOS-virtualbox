@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-virtualbox"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Contributors"]
+description = "SigmaOS virtualbox component"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "sigmaos_virtualbox"
+path = "src/lib.rs"
