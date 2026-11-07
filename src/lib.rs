@@ -1,14 +1,7 @@
-//! SigmaOS virtualbox component
-//!
-//! This component provides virtualbox functionality for SigmaOS.
+//! SigmaOS-virtualbox — utility model.
 
-#![no_std]
+pub mod util;
+pub mod options;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
+pub use util::Model;
+pub use options::{Mode, Options};
